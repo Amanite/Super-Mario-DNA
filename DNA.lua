@@ -17,7 +17,7 @@
             | 4 -> "A "
             | 5 -> "START " *)]]--
 ------------------------------------------------------------------------------------------------DECLARATIONS
-arrayLength = 11000
+arrayLength = 11000 -- maximum number of inputs considering the duration of a level multiplied by 1 input per frame.
 t = {} --Our table for inputs. Going by frames. ["TIME"] ["pixelWorld"] ["WORLD"] will be set to time it took to get to the X pixel. pixelWorld is screen*1000 + X on screen.
 t1 = {} --Other table for inputs.
  
